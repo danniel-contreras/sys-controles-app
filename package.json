@@ -1,0 +1,36 @@
+{
+  "name": "sys-controles-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^6.1.0",
+    "@capacitor/android": "^4.8.0",
+    "@capacitor/cli": "^4.8.0",
+    "@capacitor/core": "^4.8.0",
+    "@capacitor/ios": "^4.8.0",
+    "@capacitor/status-bar": "^4.1.1",
+    "ant-design-vue": "4.0.0-alpha.3",
+    "moment": "^2.29.4",
+    "oh-vue-icons": "1.0.0-rc3",
+    "pinia": "^2.0.35",
+    "vee-validate": "^4.8.6",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6",
+    "yup": "^1.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2",
+    "vue-tsc": "^1.4.2"
+  }
+}
