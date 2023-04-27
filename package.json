@@ -16,6 +16,7 @@
     "@capacitor/ios": "^4.8.0",
     "@capacitor/status-bar": "^4.1.1",
     "ant-design-vue": "4.0.0-alpha.3",
+    "jwt-decode": "^3.1.2",
     "moment": "^2.29.4",
     "oh-vue-icons": "1.0.0-rc3",
     "pinia": "^2.0.35",
