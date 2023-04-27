@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import Layout from "./components/Layout.vue"
-// import Login from './pages/Login.vue';
+//import Login from './pages/Login.vue';
 import { StatusBar, Style } from '@capacitor/status-bar';
 import { onMounted } from "vue"
 

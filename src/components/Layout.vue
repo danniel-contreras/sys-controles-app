@@ -1,8 +1,11 @@
 <template>
-    <div class="w-screen bg-gradient-to-b to-[#0093b4] from-[#8907ca] h-screen">
-        <div class="w-screen h-screen bg-[rgba(255,255,255,0.5)] p-6">
-            <p class="text-3xl font-semibold text-center py-3 text-white">Historial</p>
-            <div class="w-full h-auto bg-[rgba(255,255,255,0.7)] p-5 rounded-xl">
+    <div class="w-screen h-screen">
+        <div class="absolute w-screen h-screen bg-no-repeat bg-cover bg-[url(src/assets/back.svg)]">
+
+        </div>
+        <div class="w-screen h-screen bg-[rgba(255,255,255,0.1)] p-6 blur-0">
+            <p class="text-3xl font-bold text-center py-3 text-white">Historial</p>
+            <div class="w-full h-auto bg-[rgba(255,255,255,0.8)] p-5 rounded-xl shadow">
                 <div class="relative float-right">
                     <OhVueIcon name="fc-ok" scale="1.5" />
                 </div>
@@ -22,7 +25,7 @@
 
                 </button>
             </div>
-            <div class="w-full h-auto bg-[rgba(255,255,255,0.7)] mt-5 p-5 rounded-xl">
+            <div class="w-full h-auto bg-[rgba(255,255,255,0.8)] mt-5 p-5 rounded-xl shadow">
                 <div class="relative float-right">
                     <OhVueIcon name="fc-ok" scale="1.5" />
                 </div>

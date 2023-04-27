@@ -1,9 +1,9 @@
 <template>
     <div
-      class="w-screen h-screen bg-gradient-to-r to-[#00a7cc] from-[#8904cc] shadow sm:rounded-lg "
+      class="w-screen h-screen bg-[url(assets/back.svg)] bg-no-repeat bg-cover shadow sm:rounded-lg "
     >
-      <div class="w-screen h-screen bg-[rgba(255,255,255,0.6)] flex justify-center items-center">
-        <div class="h-[85vh] login w-[90vw] p-10 rounded-xl flex justify-center items-center flex-col  bg-[rgba(255,255,255,0.4)]">
+      <div class="w-screen h-screen  flex justify-center items-center">
+        <div class="h-[85vh] login w-[90vw] p-10 rounded-xl flex justify-center items-center flex-col  bg-[rgba(255,255,255,0.4)] shadow-xl shadow-[rgba(255,255,255,0.2)] border border-[rgba(255,255,255,0.2)]">
           <div>
             <img
               src="https://grupofacela.com/wp-content/uploads/2019/02/main-logo-facela-top.png"
